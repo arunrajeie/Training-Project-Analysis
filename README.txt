@@ -25,27 +25,27 @@ Primary analysis functions:
 	analyzeGroup.m 		-- Messenger function which makes calls to each group-level analysis specified in analysesToRun and saves their outputs as substructures to groupResults variable. Optionally plots and exports figures.
 		Individual group-level functions:
 			groupPercentCorrect.m 	-- Percent correct analysis
-			groupDa.m           -- d' analysis
-            groupMetaDa.m       -- meta-d' analysis
+			groupDa.m           	-- d' analysis
+            		groupMetaDa.m       	-- meta-d' analysis
 			groupM_ratio.m 		-- meta-d'/d' analysis
 			grouplogM_ratio.m 	-- log(meta-d'/d') analysis
 			groupMeanConf.m 	-- Mean confidence analysis
 			groupCriteria.m 	-- Criteria shift analysis
-			groupAUC.m          -- Area under the Curve for Type 2 ROC analysis
+			groupAUC.m          	-- Area under the Curve for Type 2 ROC analysis
 			groupT2HRFAR.m 		-- Type 2 hit rate and false alarm rate analysis
 			groupConfDistr.m 	-- Confidence Distribution analysis
-			groupRT.m           -- (Type 1) Reaction time analysis
+			groupRT.m           	-- (Type 1) Reaction time analysis
 			groupConfRT.m 		-- (Type 2) Confidence reaction time analysis
 			groupDifficulty.m 	-- Difficulty level analysis
-			groupQSR.m          -- QSR score analysis  
-            groupPoints.m       -- Points feedback analysis
+			groupQSR.m          	-- QSR score analysis  
+            		groupPoints.m       	-- Points feedback analysis
 	
 Secondary analysis functions:
-	analyzeStrategyPT.m         -- Function for analyzing dissociation between mean confidence and (bias) and meta-d'/d' (efficiency)
+	analyzeStrategyPT.m         	-- Function for analyzing dissociation between mean confidence and (bias) and meta-d'/d' (efficiency)
 	analyzeSupplementary.m 		-- Function for analyzing supplementary factors such as age, gender, bonus earned, stimulus trained condition, work time (minutes), duration of training (days)
 	analyzeAgeCorrelation.m 	-- Function for analyzing correlation between age and log(meta-d'/d')
-	analyzeDuration.m           -- Function for analyzing correlations between duration of training and measures of training such as log(meta-d'/d') difference, AUC difference, and mean confidence difference.
-    analyzePercentCorerct.m     -- Function for analyzing percent correct across groups, sessions, and tasks
-    analyzeNumMissedTrials.m    -- Function for reporting how many trials were not analyzed in the main analysis
+	analyzeDuration.m           	-- Function for analyzing correlations between duration of training and measures of training such as log(meta-d'/d') difference, AUC difference, and mean confidence difference.
+    analyzePercentCorrect.m     	-- Function for analyzing percent correct across groups, sessions, and tasks
+    analyzeNumMissedTrials.m    	-- Function for reporting how many trials were not analyzed in the main analysis
 
 NOTE: Once you have run analyzeMain.m once, in order to see the output for any particular group-level or secondary analysis, simply call that function with the appropriate parameters (usually analysis and/or results, plotFigs, and exportFigs). No need to run analyzeMain.m all over again.
