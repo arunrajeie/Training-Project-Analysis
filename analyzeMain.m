@@ -14,7 +14,7 @@ subjects = [1, 2, 4, 5, 8, 12, 13, 14, 15, 16, 17, 18, 19, 20, 23,...
 sessions = 1:10;
 
 fitMetaD = true;
-analysesToRun = {'all'}; % pC, da, metaDa, M_ratio, logM_ratio, meanConf, criteria, AUC, t2HRFAR, confDistr, rt, confRT, difficulty, QSR, GLM (or regression)|| all
+analysesToRun = {'all'}; % pC, da, metaDa, M_ratio, logM_ratio, meanConf, criteria, AUC, t2HRFAR, confDistr, rt, confRT, difficulty, QSR || all
 plotFigs = true;
 exportFigs = false;
 saveResults = false;
