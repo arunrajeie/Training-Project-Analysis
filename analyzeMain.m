@@ -16,7 +16,7 @@ sessions = 1:10;
 fitMetaD = true;
 analysesToRun = {'all'}; % pC, da, metaDa, M_ratio, logM_ratio, meanConf, criteria, AUC, t2HRFAR, confDistr, rt, confRT, difficulty, QSR, GLM (or regression)|| all
 plotFigs = true;
-exportFigs = true;
+exportFigs = false;
 saveResults = false;
 
 %% Code is commented out because we cannot provide access to raw data on GitHub. Skip ahead to group-level and supplementary analyses with optional plotting
